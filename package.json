@@ -1,0 +1,34 @@
+{
+  "name": "reactvitetemplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest -w",
+    "t": "pm test"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "recoil": "^0.7.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@types/loadable__component": "^5.13.4",
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "eslint": "^8.20.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.4",
+    "unocss": "^0.44.3",
+    "unplugin-auto-import": "^0.9.3",
+    "vite": "^3.0.2",
+    "vitest": "^0.18.1"
+  }
+}

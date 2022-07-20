@@ -1,0 +1,15 @@
+.btn {
+  @apply: bg-green-400 button rounded-5 router-link;
+}
+
+.tabNav {
+  @apply: 
+    p-8 py-3
+    border rounded
+  border-gray-400
+  hover:border-blue-400 hover:text-blue-400;
+}
+
+.tabNav__active {
+  @apply: border-blue-400 text-blue-400;
+}
